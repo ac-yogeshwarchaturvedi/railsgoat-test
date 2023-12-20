@@ -28,7 +28,7 @@ public class SonarQubeTest {
             System.out.println("This is an infinite loop.");
         }
     }
-
+    // dummy commit
     public static void main(String[] args) {
         SonarQubeTest test = new SonarQubeTest();
         test.unusedMethodParameter(42);
