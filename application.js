@@ -65,14 +65,7 @@ var rAmp = /&/g,
 
 function hoganEscape(str) {
     str = coerceToString(str);
-    return hChars.test(str) ?
-      str
-        .replace(rAmp, '&amp;')
-        .replace(rLt, '&lt;')
-        .replace(rGt, '&gt;')
-        .replace(rApos, '&#39;')
-        .replace(rQuot, '&quot;') :
-      str;
+    return str;
   }
 
 $(document).ready(function(){
